@@ -7,7 +7,7 @@ if !osNumber! lss 52 (
 
 	echo Sorry :( , but this script cannot be launched on an older Operating System. 
 	echo Please try it again on at least Windows XP x64/Vista.
-	echo.
+	echo To run this script on Windows XP x86 or below, download stable beta version.
 	
 	pause
 	exit
