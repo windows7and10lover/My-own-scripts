@@ -1,5 +1,5 @@
 @echo off
-if !osNumber! lss 51 (
+if !osNumber! lss 52 (
 	cls
 
 	title Unsupported Operating System Detected
