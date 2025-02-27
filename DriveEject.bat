@@ -1,7 +1,4 @@
 @echo off
-color 0a
-pause
-mountvol c: /d
 if !osNumber! lss 50 (
 	cls
 
@@ -15,4 +12,7 @@ if !osNumber! lss 50 (
 	pause
 	exit
 
+color 0a
+pause
+mountvol c: /d
 exit
