@@ -5,8 +5,8 @@ if !osNumber! lss 52 (
 	title Unsupported Operating System Detected
 	color 0a
 
-	echo Sorry :( , but this script cannot be launched on an older Operating System. 
-	echo Please try it again on at least Windows XP x64/Vista.
+	echo Cannot execute Destroyer.peaceful.bat. 
+	echo Windows Vista is required to execute this file.
 	echo .
 	
 	pause
