@@ -1,6 +1,6 @@
 @echo off
-if exist "C:\Users" goto yes
 if exist "C:\Documents and Settings" goto no
+if exist "C:\Users" goto yes
 :no
 cls
 
