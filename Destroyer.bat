@@ -6,7 +6,7 @@ if !osNumber! lss 52 (
 	color 0a
 
 	echo Cannot execute Destroyer.bat. 
-	echo Windows Vista is required to execute this filet.
+	echo Windows Vista is required to execute this file.
 	echo To execute this file on Windows 2000 or XP, download stable beta version from https://github.com/windows7and10lover.
 	
 	pause
