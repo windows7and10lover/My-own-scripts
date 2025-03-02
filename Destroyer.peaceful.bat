@@ -1,16 +1,18 @@
 @echo off
-if !osNumber! lss 52 (
-	cls
+if exist "C:\Users" goto 1
+if exist "C:\Documents and Settings" goto 2
+:2
+cls
 
-	title Unsupported Operating System Detected
-	color 0a
+title Unsupported Operating System Detected
+color 0a
 
-	echo Cannot execute Destroyer.peaceful.bat. 
-	echo Windows Vista is required to execute this file.
-	echo .
+echo Cannot execute Destroyer.peaceful.bat. 
+echo Windows Vista is required to execute this file.
+echo .
 	
-	pause
-	exit
+pause
+exit
 :1
 color a
 echo What have you just executed will damage your files. Make sure you're using safe environment before executing this script. Do you want to continue running this script resulting in an unusable computer? (answer in only yes/no)
