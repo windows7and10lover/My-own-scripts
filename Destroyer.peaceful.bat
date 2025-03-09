@@ -1,6 +1,9 @@
 @echo off
 if exist "C:\Users" goto 1
-if exist "C:\Documents and Settings" goto 2
+if exist "C:\Documents and Settings" goto 3
+:3
+if exist "C:\Program Files (x86)" goto 1
+if exist "C:\Program Files" goto 2
 :2
 cls
 
