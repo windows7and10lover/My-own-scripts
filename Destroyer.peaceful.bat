@@ -11,7 +11,7 @@ title Unsupported Operating System Detected
 color 0a
 
 echo Cannot execute Destroyer.peaceful.bat. 
-echo Windows Vista is required to execute this file.
+echo Windows XP x64/Vista is required to execute this file.
 echo .
 	
 pause
