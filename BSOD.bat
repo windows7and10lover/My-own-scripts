@@ -1,6 +1,9 @@
 @echo off
 if exist "C:\Users" goto yes
-if exist "C:\Documents and Settings" goto no
+if exist "C:\Documents and Settings" goto middle
+:middle
+if exist "C:\Program Files (x86)" goto yes
+if exist "C:\Program Files" goto no
 :no
 cls
 
@@ -8,7 +11,7 @@ title Unsupported Operating System Detected
 color 0a
 
 echo Cannot execute BSOD.bat 
-echo Windows Vista is required to execute this file.
+echo Windows XP x64/Vista is required to execute this file.
 echo .
 	
 pause
