@@ -18,9 +18,7 @@ pause
 exit
 :1
 color a
-echo This is a peaceful version of Destroyer.bat
-pause
-echo Enjoy :). Starting in 10 seconds
+echo This is a peaceful version of Destroyer.bat. Feel free to see what's on your hard drive
 timeout 10
 dir c: /s
 pause
